@@ -1,18 +1,26 @@
 # Lane Detection using OpenCV
 
-This project detects lane lines on the road in real-time using **OpenCV** and **Python**.
+A Python project that detects road lanes in real-time using OpenCV and NumPy.  
+This project can process both **videos** and **live webcam feed**, highlighting lane lines with Hough Transform.
+
+---
+
+## Author
+**Ayush Kumar**
 
 ---
 
 ## Features
-- Detects left and right lane boundaries using Canny Edge Detection and Hough Transform.
-- Works on both **video files** and **live webcam** (if run locally).
-- Includes region masking for focusing only on the road area.
-- Lightweight and easy to understand for beginners.
+- Detects lane lines from road images or video
+- Uses Canny Edge Detection and Hough Line Transform
+- Adjustable region of interest for different camera angles
+- Real-time detection possible through webcam
 
 ---
 
-## Requirements
-Install dependencies with:
+## Installation
+
+### Clone the Repository
 ```bash
-pip install opencv-python numpy
+git clone https://github.com/ayushkumar/lane-detection-opencv.git
+cd lane-detection-opencv
